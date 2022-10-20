@@ -1,0 +1,296 @@
+# package.use# required by net-misc/networkmanager-1.32.12-r1::gentoo[-iwd,wifi]
+# required by networkmanager (argument)
+>=net-wireless/wpa_supplicant-2.10-r1 dbus
+# required by sys-apps/systemd-250.4-r2::gentoo
+# required by virtual/tmpfiles-0-r1::gentoo
+# required by sys-apps/man-db-2.10.2-r1::gentoo
+# required by virtual/man-0-r4::gentoo
+# required by @system
+# required by @world (argument)
+>=sys-apps/dbus-1.12.22-r1 systemd
+# required by media-libs/mesa-21.3.7::gentoo
+# required by media-libs/libepoxy-1.5.9-r1::gentoo[egl]
+# required by x11-base/xorg-server-21.1.3-r1::gentoo[-minimal]
+# required by x11-drivers/xf86-input-libinput-1.2.0::gentoo
+# required by x11-base/xorg-drivers-21.1::gentoo[input_devices_libinput]
+>=media-libs/libglvnd-1.4.0 X
+# required by x11-libs/gtk+-3.24.31::gentoo
+# required by gnome-extra/zenity-3.41.0::gentoo
+# required by @steam (argument)
+>=x11-libs/cairo-1.16.0-r5 X
+# required by net-print/cups-filters-1.28.10-r3::gentoo[postscript]
+# required by net-print/cups-2.3.3_p2-r3::gentoo
+# required by @steam (argument)
+>=app-text/ghostscript-gpl-9.55.0-r1 cups
+# required by media-sound/pulseaudio-15.0-r2::gentoo[alsa-plugin,alsa]
+# required by @steam (argument)
+>=media-plugins/alsa-plugins-1.2.6 pulseaudio
+# required by x11-misc/xdg-utils-1.1.3_p20200220-r5::gentoo
+# required by kde-frameworks/kf-env-5::gentoo
+# required by kde-frameworks/solid-5.92.0::gentoo
+# required by kde-frameworks/kio-5.92.0::gentoo
+# required by kde-frameworks/kinit-5.92.0::gentoo
+# required by kde-frameworks/kded-5.92.0::gentoo
+>=app-text/xmlto-0.0.28-r8 text
+# required by kde-frameworks/kglobalaccel-5.92.0::gentoo
+# required by kde-frameworks/kxmlgui-5.92.0::gentoo
+# required by kde-frameworks/kio-5.92.0::gentoo
+# required by kde-frameworks/kinit-5.92.0::gentoo
+# required by kde-frameworks/kded-5.92.0::gentoo
+>=kde-frameworks/kwindowsystem-5.92.0 X
+# required by sys-auth/polkit-0.120_p20220221::gentoo[systemd]
+# required by sys-fs/udisks-2.9.4::gentoo
+# required by kde-frameworks/solid-5.92.0::gentoo
+# required by kde-frameworks/kio-5.92.0::gentoo
+# required by kde-frameworks/kinit-5.92.0::gentoo
+# required by kde-frameworks/kded-5.92.0::gentoo
+>=sys-apps/systemd-250.4-r2 policykit
+# required by kde-frameworks/kwallet-5.92.0::gentoo
+# required by kde-frameworks/kio-5.92.0::gentoo[kwallet]
+# required by kde-frameworks/kinit-5.92.0::gentoo
+# required by kde-frameworks/kded-5.92.0::gentoo
+>=kde-frameworks/knotifications-5.92.0 X
+# required by www-client/chromium-100.0.4896.127::gentoo
+# required by chromium (argument)
+>=dev-libs/libxml2-2.9.13-r1 icu
+# required by www-client/chromium-100.0.4896.127::gentoo[system-harfbuzz]
+# required by chromium (argument)
+>=media-libs/harfbuzz-3.4.0-r1 icu
+# required by www-client/chromium-100.0.4896.127::gentoo
+# required by chromium (argument)
+>=sys-libs/zlib-1.2.11-r4 minizip
+# required by www-client/chromium-100.0.4896.127::gentoo
+# required by chromium (argument)
+>=net-libs/nodejs-14.19.0 inspector
+# required by www-client/firefox-91.9.0::gentoo[system-libvpx]
+# required by firefox (argument)
+>=media-libs/libvpx-1.11.0 postproc
+# required by www-client/vivaldi-5.2.2623.39::gentoo
+# required by vivaldi (argument)
+>=x11-libs/pango-1.50.4 X
+# required by xfce-base/xfce4-panel-4.16.3::gentoo[dbusmenu]
+# required by xfce-base/thunar-4.16.11::gentoo[trash-panel-plugin]
+# required by xfce-base/xfdesktop-4.16.0::gentoo[thunar]
+# required by xfce-base/xfce4-meta-4.16-r2::gentoo
+# required by xfce-base/xfce4-meta (argument)
+>=dev-libs/libdbusmenu-16.04.0-r1 gtk3
+# required by xfce-extra/thunar-volman-4.16.0::gentoo
+# required by xfce-base/xfce4-meta-4.16-r2::gentoo
+# required by xfce-base/xfce4-meta (argument)
+>=xfce-base/thunar-4.16.11 udisks
+# required by xfce-base/thunar-4.16.11::gentoo[udisks]
+# required by xfce-base/xfdesktop-4.16.0::gentoo[thunar]
+# required by xfce-base/xfce4-meta-4.16-r2::gentoo
+# required by xfce-base/xfce4-meta (argument)
+>=gnome-base/gvfs-1.48.1-r1 udisks
+# required by net-libs/webkit-gtk-2.36.1::gentoo[gles2-only,gstreamer]
+# required by games-util/winegame-client-bin-0.5.9.3::gentoo-zh
+# required by games-util/winegame-client-bin (argument)
+>=media-libs/gst-plugins-base-1.20.1 gles2
+# required by net-libs/webkit-gtk-2.36.1::gentoo[gstreamer]
+# required by games-util/winegame-client-bin-0.5.9.3::gentoo-zh
+# required by games-util/winegame-client-bin (argument)
+>=media-libs/gst-plugins-bad-1.20.1 gles2
+# required by app-emulation/deepin-wine6-stable-6.0.0.19-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat-3.4.0.38-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat (argument)
+=net-nds/openldap-2.4.59-r2 abi_x86_32
+# required by net-nds/openldap-2.4.59-r2::gentoo[-gnutls,ssl]
+# required by app-emulation/deepin-wine6-stable-6.0.0.19-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat-3.4.0.38-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat (argument)
+>=dev-libs/openssl-1.1.1o abi_x86_32
+# required by app-emulation/deepin-wine6-stable-6.0.0.19-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat-3.4.0.38-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat (argument)
+>=media-libs/alsa-lib-1.2.6.1 abi_x86_32
+# required by app-emulation/deepin-wine6-stable-6.0.0.19-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat-3.4.0.38-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat (argument)
+>=media-libs/libgphoto2-2.5.29 abi_x86_32
+# required by app-emulation/deepin-wine6-stable-6.0.0.19-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat-3.4.0.38-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat (argument)
+>=media-libs/gst-plugins-base-1.20.1 abi_x86_32
+# required by app-emulation/deepin-wine6-stable-6.0.0.19-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat-3.4.0.38-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat (argument)
+>=media-libs/lcms-2.13.1 abi_x86_32
+# required by app-emulation/deepin-wine6-stable-6.0.0.19-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat-3.4.0.38-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat (argument)
+>=media-sound/mpg123-1.29.3 abi_x86_32
+# required by app-emulation/deepin-wine6-stable-6.0.0.19-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat-3.4.0.38-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat (argument)
+>=media-libs/openal-1.22.0 abi_x86_32
+# required by app-emulation/deepin-wine6-stable-6.0.0.19-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat-3.4.0.38-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat (argument)
+>=net-libs/libpcap-1.10.1-r1 abi_x86_32
+# required by app-emulation/deepin-wine6-stable-6.0.0.19-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat-3.4.0.38-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat (argument)
+>=media-libs/libcanberra-0.30-r6 abi_x86_32 pulseaudio
+# 
+>=x11-libs/libX11-1.7.5 abi_x86_32
+# required by x11-base/xcb-proto-1.15::gentoo
+# required by x11-libs/libxcb-1.15::gentoo
+# required by x11-misc/compose-tables-1.8::gentoo
+# required by x11-libs/libX11-1.7.5::gentoo
+# required by x11-libs/libXrender-0.9.10-r2::gentoo
+# required by x11-libs/cairo-1.16.0-r5::gentoo[X]
+# required by dev-python/pygobject-3.42.1::gentoo[cairo]
+# required by dev-python/pydbus-0.6.0::gentoo
+# required by app-emulation/deepin-wine-plugin-5.1.13-r1::gentoo-zh[-python_targets_python3_8,python_targets_python3_9,virtual-pkg,-python_targets_python3_10]
+# required by app-emulation/deepin-wine-helper-5.1.27-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat-3.4.0.38-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat (argument)
+>=dev-libs/libxml2-2.9.14-r1 abi_x86_32
+# required by media-libs/freetype-2.12.1::gentoo
+# required by media-libs/fontconfig-2.14.0-r1::gentoo
+# required by x11-libs/cairo-1.16.0-r5::gentoo
+# required by dev-python/pygobject-3.42.1::gentoo[cairo]
+# required by dev-python/pydbus-0.6.0::gentoo
+# required by app-emulation/deepin-wine-plugin-5.1.13-r1::gentoo-zh[-python_targets_python3_8,python_targets_python3_9,virtual-pkg,-python_targets_python3_10]
+# required by app-emulation/deepin-wine-helper-5.1.27-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat-3.4.0.38-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat (argument)
+>=sys-libs/zlib-1.2.12-r2 abi_x86_32
+# 
+>=media-libs/fontconfig-2.14.0-r1 abi_x86_32
+# required by media-libs/fontconfig-2.14.0-r1::gentoo
+# required by x11-libs/cairo-1.16.0-r5::gentoo
+# required by dev-python/pygobject-3.42.1::gentoo[cairo]
+# required by dev-python/pydbus-0.6.0::gentoo
+# required by app-emulation/deepin-wine-plugin-5.1.13-r1::gentoo-zh[-python_targets_python3_8,python_targets_python3_9,virtual-pkg,-python_targets_python3_10]
+# required by app-emulation/deepin-wine-helper-5.1.27-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat-3.4.0.38-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat (argument)
+>=media-libs/freetype-2.12.1 abi_x86_32
+# required by dev-libs/libxml2-2.9.14-r1::gentoo[icu]
+# required by x11-base/xcb-proto-1.15::gentoo
+# required by x11-libs/libxcb-1.15::gentoo
+# required by x11-misc/compose-tables-1.8::gentoo
+# required by x11-libs/libX11-1.7.5::gentoo
+# required by x11-libs/libXrender-0.9.10-r2::gentoo
+# required by x11-libs/cairo-1.16.0-r5::gentoo[X]
+# required by dev-python/pygobject-3.42.1::gentoo[cairo]
+# required by dev-python/pydbus-0.6.0::gentoo
+# required by app-emulation/deepin-wine-plugin-5.1.13-r1::gentoo-zh[python_targets_python3_9,-python_targets_python3_10,virtual-pkg,-python_targets_python3_8]
+# required by app-emulation/deepin-wine-helper-5.1.27-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat-3.4.0.38-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat (argument)
+>=dev-libs/icu-71.1 abi_x86_32
+# required by x11-libs/libX11-1.7.5::gentoo
+# required by x11-libs/libXrender-0.9.10-r2::gentoo
+# required by x11-libs/cairo-1.16.0-r5::gentoo[X]
+# required by dev-python/pygobject-3.42.1::gentoo[cairo]
+# required by dev-python/pydbus-0.6.0::gentoo
+# required by app-emulation/deepin-wine-plugin-5.1.13-r1::gentoo-zh[python_targets_python3_9,-python_targets_python3_10,virtual-pkg,-python_targets_python3_8]
+# required by app-emulation/deepin-wine-helper-5.1.27-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat-3.4.0.38-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat (argument)
+>=x11-libs/libxcb-1.15 abi_x86_32
+# required by media-libs/freetype-2.12.1::gentoo[bzip2]
+# required by media-libs/fontconfig-2.14.0-r1::gentoo
+# required by x11-libs/cairo-1.16.0-r5::gentoo
+# required by dev-python/pygobject-3.42.1::gentoo[cairo]
+# required by dev-python/pydbus-0.6.0::gentoo
+# required by app-emulation/deepin-wine-plugin-5.1.13-r1::gentoo-zh[python_targets_python3_9,-python_targets_python3_10,virtual-pkg,-python_targets_python3_8]
+# required by app-emulation/deepin-wine-helper-5.1.27-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat-3.4.0.38-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat (argument)
+>=app-arch/bzip2-1.0.8-r1 abi_x86_32
+# required by media-libs/freetype-2.12.1::gentoo[png]
+# required by media-libs/fontconfig-2.14.0-r1::gentoo
+# required by x11-libs/cairo-1.16.0-r5::gentoo
+# required by dev-python/pygobject-3.42.1::gentoo[cairo]
+# required by dev-python/pydbus-0.6.0::gentoo
+# required by app-emulation/deepin-wine-plugin-5.1.13-r1::gentoo-zh[python_targets_python3_9,-python_targets_python3_10,virtual-pkg,-python_targets_python3_8]
+# required by app-emulation/deepin-wine-helper-5.1.27-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat-3.4.0.38-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat (argument)
+>=media-libs/libpng-1.6.37-r2 abi_x86_32
+# required by media-libs/fontconfig-2.14.0-r1::gentoo
+# required by x11-libs/cairo-1.16.0-r5::gentoo
+# required by dev-python/pygobject-3.42.1::gentoo[cairo]
+# required by dev-python/pydbus-0.6.0::gentoo
+# required by app-emulation/deepin-wine-plugin-5.1.13-r1::gentoo-zh[python_targets_python3_9,-python_targets_python3_10,virtual-pkg,-python_targets_python3_8]
+# required by app-emulation/deepin-wine-helper-5.1.27-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat-3.4.0.38-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat (argument)
+>=dev-libs/expat-2.4.8 abi_x86_32
+# required by media-libs/fontconfig-2.14.0-r1::gentoo
+# required by x11-libs/cairo-1.16.0-r5::gentoo
+# required by dev-python/pygobject-3.42.1::gentoo[cairo]
+# required by dev-python/pydbus-0.6.0::gentoo
+# required by app-emulation/deepin-wine-plugin-5.1.13-r1::gentoo-zh[python_targets_python3_9,-python_targets_python3_10,virtual-pkg,-python_targets_python3_8]
+# required by app-emulation/deepin-wine-helper-5.1.27-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat-3.4.0.38-r1::gentoo-zh
+# required by net-im/deepin-wine-wechat (argument)
+>=sys-apps/util-linux-2.38 abi_x86_32
+# required by media-libs/fontconfig-2.14.0-r1::gentoo
+# required by app-eselect/eselect-fontconfig-1.1-r1::gentoo
+>=virtual/libintl-0-r2 abi_x86_32
+# required by x11-libs/libxcb-1.15::gentoo
+# required by x11-libs/libX11-1.7.5::gentoo
+# required by x11-libs/libXrender-0.9.10-r2::gentoo
+# required by x11-libs/cairo-1.16.0-r5::gentoo[X]
+# required by dev-python/pycairo-1.21.0::gentoo[-test]
+# required by dev-python/pygobject-3.42.0::gentoo[cairo]
+# required by net-misc/networkmanager-1.32.12-r1::gentoo[-test,introspection]
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libXau-1.0.9-r1 abi_x86_32
+# required by x11-libs/libxcb-1.15::gentoo
+# required by x11-libs/libX11-1.7.5::gentoo
+# required by x11-libs/libXrender-0.9.10-r2::gentoo
+# required by x11-libs/cairo-1.16.0-r5::gentoo[X]
+# required by dev-python/pycairo-1.21.0::gentoo[-test]
+# required by dev-python/pygobject-3.42.0::gentoo[cairo]
+# required by net-misc/networkmanager-1.32.12-r1::gentoo[-test,introspection]
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libXdmcp-1.1.3-r1 abi_x86_32
+# required by x11-libs/libxcb-1.15::gentoo
+# required by x11-libs/libX11-1.7.5::gentoo
+# required by x11-libs/libXrender-0.9.10-r2::gentoo
+# required by x11-libs/cairo-1.16.0-r5::gentoo[X]
+# required by dev-python/pycairo-1.21.0::gentoo[-test]
+# required by dev-python/pygobject-3.42.0::gentoo[cairo]
+# required by net-misc/networkmanager-1.32.12-r1::gentoo[-test,introspection]
+# required by @selected
+# required by @world (argument)
+>=x11-base/xcb-proto-1.15 abi_x86_32
+# required by x11-libs/libXdmcp-1.1.3-r1::gentoo
+# required by x11-libs/libxcb-1.15::gentoo
+# required by x11-libs/libX11-1.7.5::gentoo
+# required by x11-libs/libXrender-0.9.10-r2::gentoo
+# required by x11-libs/cairo-1.16.0-r5::gentoo[X]
+# required by dev-python/pycairo-1.21.0::gentoo[-test]
+# required by dev-python/pygobject-3.42.0::gentoo[cairo]
+# required by net-misc/networkmanager-1.32.12-r1::gentoo[-test,introspection]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libbsd-0.11.6 abi_x86_32
+# required by dev-libs/libbsd-0.11.6::gentoo
+# required by x11-libs/libXdmcp-1.1.3-r1::gentoo
+# required by x11-libs/libxcb-1.15::gentoo
+# required by x11-libs/libX11-1.7.5::gentoo
+# required by x11-libs/libXrender-0.9.10-r2::gentoo
+# required by x11-libs/cairo-1.16.0-r5::gentoo[X]
+# required by dev-python/pycairo-1.21.0::gentoo[-test]
+# required by dev-python/pygobject-3.42.0::gentoo[cairo]
+# required by net-misc/networkmanager-1.32.12-r1::gentoo[-test,introspection]
+# required by @selected
+# required by @world (argument)
+>=app-crypt/libmd-1.0.4 abi_x86_32
+# required by app-containers/snapd-2.55.4::gentoo
+# required by snapd (argument)
+>=sys-fs/squashfs-tools-4.5.1 lzma
+# required by app-emulation/libvirt-8.2.0::gentoo[virt-network]
+# required by app-emulation/libvirt-glib-4.0.0::gentoo
+# required by app-emulation/virt-manager-4.0.0::gentoo[-test]
+# required by virt-manager (argument)
+>=net-dns/dnsmasq-2.85 script

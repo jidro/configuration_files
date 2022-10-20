@@ -1,0 +1,15 @@
+[fzug-free]
+name=FZUG fc$releasever - Free
+baseurl=https://mirrors.tuna.tsinghua.edu.cn/fzug/free/$releasever/$basearch/
+skip_if_unavailable=True
+metadata_expire=7d
+gpgcheck=0
+enabled=1
+
+[fzug-free-source]
+name=FZUG fc$releasever - Free - Source
+baseurl=https://mirrors.tuna.tsinghua.edu.cn/fzug/free/$releasever/source/SRPMS/
+skip_if_unavailable=True
+metadata_expire=7d
+gpgcheck=0
+enabled=0

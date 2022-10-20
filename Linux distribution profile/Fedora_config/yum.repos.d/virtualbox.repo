@@ -1,0 +1,6 @@
+[virtualbox] 
+name=Virtualbox Repository 
+#baseurl=https://mirrors.tuna.tsinghua.edu.cn/virtualbox/rpm/el$releasever/ 
+baseurl=https://mirrors.tuna.tsinghua.edu.cn/virtualbox/rpm/el8/
+gpgcheck=0
+enabled=1
