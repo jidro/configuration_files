@@ -30,7 +30,7 @@ This repository is all the application configuration files I am using, have used
 All configuration files used or collected by the warehouse    </br>
 It may not be applicable to everyone. Please check the source code carefully before using it    </br>
 
-> Among them,    <>/br 
+> Among them,    </br>
 > 
 > [`AdGuard_config`](https://github.com/jidro/configuration_files/tree/master/AdGuard_config) - This folder is the configuration file of the `AdGuard` advertising screening software I am using.    </br>  
 > 
