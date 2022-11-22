@@ -1,0 +1,4 @@
+# The mirror list is a virtualbox mirror list.
+# The Oracle VirtualBox Virtualbox mirror of the open source software mirror station of Beijing Foreign Studies University is used this time. 
+# Similarly, you can change this configuration by using the mirror of other open source software mirror stations closest to you.
+deb http://mirrors.bfsu.edu.cn/virtualbox/apt/ bullseye contrib
