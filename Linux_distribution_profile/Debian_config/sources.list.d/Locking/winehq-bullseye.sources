@@ -1,5 +1,6 @@
 Types: deb
-URIs: https://dl.winehq.org/wine-builds/debian
+#URIs: https://dl.winehq.org/wine-builds/debian
+URIs: https://mirrors.tuna.tsinghua.edu.cn/wine-builds/debian/
 Suites: bullseye
 Components: main
 Architectures: amd64 i386
