@@ -1,18 +1,35 @@
 ##
 # Host Database
 #
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
 # localhost is used to configure the loopback interface
 # when the system is booting.  Do not change this entry.
 # Static table lookup for hostnames.
 # See hosts(5) for details.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10	    x.acme.com	            # x client host
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1            	localhost
 ##
-127.0.0.1			localhost
-127.0.1.1			localhost.localdomain	localhost
+127.0.0.1			    localhost
+127.0.1.1			    localhost.localdomain	        localhost
 255.255.255.255		broadcasthost
 
 # The following lines are desirable for IPv6 capable hosts
-::1				localhost 			ip6-localhost 		ip6-loopback
-fe00::0			ip6-localnet
-ff00::0			ip6-mcastprefix
+::1				    localhost 			  ip6-localhost 		  ip6-loopback
+fe00::0			  ip6-localnet
+ff00::0			  ip6-mcastprefix
 ff02::1 			ip6-allnodes
 ff02::2 			ip6-allrouters
