@@ -1,0 +1,3 @@
+# add by atzlinux-v11-archive-keyring package
+deb https://apt.atzlinux.com/atzlinux bullseye main contrib non-free
+#deb-src https://apt.atzlinux.com/atzlinux bullseye main contrib non-free
