@@ -1,3 +1,12 @@
 # add by atzlinux-v11-archive-keyring package
-deb https://apt.atzlinux.com/atzlinux bullseye main contrib non-free
+#deb https://apt.atzlinux.com/atzlinux bullseye main contrib non-free
 #deb-src https://apt.atzlinux.com/atzlinux bullseye main contrib non-free
+# add by atzlinux-v10-archive-keyring package
+#deb https://apt.atzlinux.com/atzlinux buster main contrib non-free
+
+# Add all available architecture support for the image source.
+# add by atzlinux-v11-archive-keyring package
+deb [arch=amd64] https://apt.atzlinux.com/atzlinux bullseye main contrib non-free
+deb-src [arch=amd64] https://apt.atzlinux.com/atzlinux bullseye main contrib non-free
+# add by atzlinux-v10-archive-keyring package
+deb [arch=amd64] https://apt.atzlinux.com/atzlinux buster main contrib non-free
