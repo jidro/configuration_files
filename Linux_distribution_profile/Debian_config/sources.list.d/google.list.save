@@ -1,0 +1,6 @@
+# Google Software Source.
+# This file is a list storage file of Google software source.
+# Google Chrome Browser Software Source.
+deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
+# Google Maps Software Source.
+deb [arch=amd64] http://dl.google.com/linux/earth/deb/ stable main

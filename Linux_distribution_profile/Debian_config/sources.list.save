@@ -29,3 +29,19 @@ deb http://mirrors.ustc.edu.cn/debian-multimedia/ stable main non-free
 deb-src http://mirrors.ustc.edu.cn/debian-multimedia/ stable main non-free
 deb http://mirrors.ustc.edu.cn/debian-multimedia/ bullseye-backports main
 deb-src http://mirrors.ustc.edu.cn/debian-multimedia/ bullseye-backports main
+deb https://mirrors.tencent.com/debian buster main contrib non-free
+# deb-src https://mirrors.tencent.com/debian buster main contrib non-free
+deb https://mirrors.tencent.com/debian buster-updates main contrib non-free
+# deb-src https://mirrors.tencent.com/debian buster-updates main contrib non-free
+deb https://mirrors.tencent.com/debian buster-backports main contrib non-free
+# deb-src https://mirrors.tencent.com/debian buster-backports main contrib non-free
+deb https://mirrors.tencent.com/debian buster-proposed-updates main contrib non-free
+# deb-src https://mirrors.tencent.com/debian buster-proposed-updates main contrib non-free
+deb https://mirrors.tencent.com/debian-security buster/updates main contrib non-free
+# deb-src https://mirrors.tencent.com/debian-security buster/updates main contrib non-free
+deb https://mirrors.tuna.tsinghua.edu.cn/debian buster-updates main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian buster-updates main contrib non-free
+deb https://mirrors.tuna.tsinghua.edu.cn/debian buster-backports main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian buster-backports main contrib non-free
+deb https://mirrors.tuna.tsinghua.edu.cn/debian buster-proposed-updates main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian buster-proposed-updates main contrib non-free
