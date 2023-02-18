@@ -1,6 +1,0 @@
-# MX Community Main and Test Repos
-deb https://mirrors.bfsu.edu.cn/mxlinux/mx/repo/ bullseye main non-free
-# deb http://mxrepo.com/mx/testrepo/ bullseye test
-
-#ahs hardware stack repo
-# deb https://mirrors.bfsu.edu.cn/mxlinux/mx/repo/ bullseye ahs

@@ -1,3 +1,0 @@
-# This file is the image source of the domestic Red Flag Linux. 
-# Add usable architecture support for the image source.
-deb [arch=amd64] http://apt.chinaredflag.cn/kunlun-amd64 kunlun main contrib non-free
