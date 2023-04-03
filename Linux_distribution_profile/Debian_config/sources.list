@@ -29,3 +29,4 @@ deb http://mirrors.ustc.edu.cn/debian-multimedia/ stable main non-free
 deb-src http://mirrors.ustc.edu.cn/debian-multimedia/ stable main non-free
 deb http://mirrors.ustc.edu.cn/debian-multimedia/ bullseye-backports main
 deb-src http://mirrors.ustc.edu.cn/debian-multimedia/ bullseye-backports main
+#deb https://apt.atzlinux.com/atzlinux buster main contrib non-free
