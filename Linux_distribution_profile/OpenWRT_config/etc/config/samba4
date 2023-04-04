@@ -1,0 +1,61 @@
+
+config samba
+	option workgroup 'WORKGROUP'
+	option charset 'UTF-8'
+	option description 'Samba on OpenWRT'
+	option interface 'lan wan'
+
+config sambashare
+	option unishare '1'
+	option path '/mnt'
+	option name 'mnt'
+	option read_only 'yes'
+	option force_root '1'
+	option inherit_owner 'yes'
+	option create_mask '0666'
+	option dir_mask '0777'
+	option users 'admin '
+	option guest_ok 'yes'
+	option write_list 'admin'
+
+config sambashare
+	option unishare '1'
+	option path '/root/share'
+	option name 'public'
+	option read_only 'yes'
+	option force_root '1'
+	option inherit_owner 'yes'
+	option create_mask '0666'
+	option dir_mask '0777'
+	option users 'admin guest nobody @unishare'
+	option guest_ok 'yes'
+	option write_list 'admin'
+	option read_list 'guest nobody @unishare'
+
+config sambashare
+	option unishare '1'
+	option path '/root/work'
+	option name 'work'
+	option read_only 'yes'
+	option force_root '1'
+	option inherit_owner 'yes'
+	option create_mask '0666'
+	option dir_mask '0777'
+	option users 'admin tim @unishare'
+	option guest_ok 'yes'
+	option write_list 'admin tim'
+	option read_list '@unishare'
+
+config sambashare
+	option unishare '1'
+	option path '/root/share'
+	option name 'www'
+	option read_only 'yes'
+	option force_root '1'
+	option inherit_owner 'yes'
+	option create_mask '0666'
+	option dir_mask '0777'
+	option users ' guest nobody @unishare'
+	option guest_ok 'yes'
+	option read_list 'guest nobody @unishare'
+

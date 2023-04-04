@@ -1,0 +1,10 @@
+#!/bin/sh
+
+uci -q batch <<-EOF >/dev/null
+	set transmission.@transmission[-1].web_home=/usr/share/transmission/web
+	commit transmission
+EOF
+
+sed -i 's/reload_service(/reload_service0(/g' /etc/init.d/transmission
+
+exit 0

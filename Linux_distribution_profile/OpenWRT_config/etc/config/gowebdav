@@ -1,0 +1,11 @@
+
+config gowebdav 'config'
+	option listen_port '6086'
+	option username 'user'
+	option root_dir '/mnt'
+	option read_only '0'
+	option allow_wan '0'
+	option use_https '0'
+	option enable '1'
+	option password '1'
+

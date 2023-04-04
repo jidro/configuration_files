@@ -1,0 +1,13 @@
+
+config globals 'globals'
+	option log_level 'warn'
+	option iptables '1'
+	option remote_endpoint '0'
+	list registry_mirrors 'https://hub-mirror.c.163.com'
+	list registry_mirrors 'https://ustc-edu-cn.mirror.aliyuncs.com/'
+	option data_root '/mnt/sata3-1/docker'
+
+config firewall 'firewall'
+	option device 'docker0'
+	option extra_iptables_args '--match conntrack ! --ctstate RELATED,ESTABLISHED'
+

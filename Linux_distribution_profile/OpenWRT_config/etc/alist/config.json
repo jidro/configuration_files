@@ -1,0 +1,37 @@
+{
+  "force": false,
+  "address": "0.0.0.0",
+  "port": 5424,
+  "site_url": "",
+  "cdn": "",
+  "jwt_secret": "",
+  "token_expires_in": 48,
+  "database": {
+    "type": "sqlite3",
+    "host": "",
+    "port": 0,
+    "user": "",
+    "password": "",
+    "name": "",
+    "db_file": "/etc/alist/data.db",
+    "table_prefix": "x_",
+    "ssl_mode": ""
+  },
+  "scheme": {
+    "https": false,
+    "cert_file": "",
+    "key_file": ""
+  },
+  "temp_dir": "/tmp/alist",
+  "bleve_dir": "/etc/alist/bleve",
+  "log": {
+    "enable": true,
+    "name": "/tmp/alist/alist.log",
+    "max_size": 10,
+    "max_backups": 5,
+    "max_age": 28,
+    "compress": false
+  },
+  "max_connections": 0,
+  "tls_insecure_skip_verify": true
+}

@@ -1,0 +1,5 @@
+
+config vlmcsd 'config'
+	option enabled '1'
+	option autoactivate '0'
+

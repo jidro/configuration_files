@@ -1,0 +1,28 @@
+{
+	"model": {
+		"id": "innotek-gmbh-virtualbox",
+		"name": "innotek GmbH VirtualBox"
+	},
+	"system": {
+		"hostname": "iStoreOS",
+		"ntpserver": [
+			"0.cn.pool.ntp.org",
+			"1.cn.pool.ntp.org",
+			"2.cn.pool.ntp.org",
+			"3.cn.pool.ntp.org"
+		]
+	},
+	"network": {
+		"wan": {
+			"device": "eth0",
+			"protocol": "dhcp"
+		},
+		"lan": {
+			"ports": [
+				"eth1"
+			],
+			"protocol": "static",
+			"ipaddr": "192.168.56.2"
+		}
+	}
+}

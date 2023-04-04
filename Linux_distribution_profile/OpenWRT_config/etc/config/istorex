@@ -1,0 +1,5 @@
+
+config istorex
+	option enabled '1'
+	option model 'nas'
+

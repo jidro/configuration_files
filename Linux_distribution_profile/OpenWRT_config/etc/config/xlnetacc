@@ -1,0 +1,8 @@
+
+config general 'general'
+	option network 'wan'
+	option enabled '1'
+	option down_acc '1'
+	option up_acc '1'
+	option logging '1'
+

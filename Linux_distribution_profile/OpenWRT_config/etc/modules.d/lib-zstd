@@ -1,0 +1,4 @@
+xxhash
+zstd
+zstd_compress
+zstd_decompress

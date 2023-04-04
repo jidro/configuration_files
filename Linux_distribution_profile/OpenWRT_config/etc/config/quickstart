@@ -1,0 +1,4 @@
+
+config quickstart 'main'
+	option nas_guide_init '1'
+

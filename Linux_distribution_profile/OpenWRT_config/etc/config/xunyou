@@ -1,0 +1,5 @@
+
+config xunyou
+	option interface 'lan'
+	option enabled '1'
+
