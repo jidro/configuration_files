@@ -61,4 +61,50 @@ media-libs/libsdl X
 # pacmanarena (argument)
 media-libs/sdl-mixer vorbis
 
+# LX-Music-Desktop
+x11-libs/gtk+ cups
+app-accessibility/at-spi2-core X
+x11-libs/libXtst abi_x86_32
+net-print/cups abi_x86_32
+
+# OnlyOffice (argument)
+dev-qt/qtgui eglfs
+
+# LibreOffice (argument)
+dev-libs/xmlsec nss
+sys-apps/dbus X
+
+# WPS-Office
+dev-libs/atk abi_x86_32
+
+# OBS-Studio
+media-video/ffmpeg x264
+
+# WineGame-Client
+dev-ruby/minitest ruby_targets_ruby31
+dev-ruby/power_assert ruby_targets_ruby31
+dev-ruby/rake ruby_targets_ruby31
+dev-ruby/rbs ruby_targets_ruby31
+dev-ruby/rexml ruby_targets_ruby31
+dev-ruby/rss ruby_targets_ruby31
+dev-ruby/test-unit ruby_targets_ruby31
+dev-ruby/typeprof ruby_targets_ruby31
+dev-ruby/bundler ruby_targets_ruby31
+dev-ruby/did_you_mean ruby_targets_ruby31
+dev-ruby/json ruby_targets_ruby31
+dev-ruby/rdoc ruby_targets_ruby31
+virtual/rubygems ruby_targets_ruby31
+dev-ruby/rubygems ruby_targets_ruby31
+media-libs/libsdl2 haptic abi_x86_32
+media-libs/vulkan-loader abi_x86_32
+media-plugins/gst-plugins-meta abi_x86_32
+media-libs/gst-plugins-good abi_x86_32
+virtual/glu abi_x86_32
+media-libs/glu abi_x86_32
+dev-ruby/psych ruby_targets_ruby31
+dev-ruby/kpeg ruby_targets_ruby31
+dev-ruby/racc ruby_targets_ruby31
+dev-ruby/stringio ruby_targets_ruby31
+virtual/ruby-ssl ruby_targets_ruby31
+
 # --------
