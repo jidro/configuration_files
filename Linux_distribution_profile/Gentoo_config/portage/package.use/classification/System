@@ -1,0 +1,86 @@
+### System
+#--------System USE Start--------
+
+sys-boot/grub mount
+net-misc/openssh -bindist
+kde-apps/kde-apps-meta -* admin
+kde-apps/kdecore-meta -webengine
+app-i18n/fcitx gtk2
+sys-libs/gpm abi_x86_32
+media-libs/tiff abi_x86_32
+virtual/jpeg abi_x86_32
+sys-libs/ncurses -gpm
+dev-libs/nettle gmp
+app-crypt/gcr gtk
+virtual/imagemagick-tools svg png
+media-gfx/imagemagick svg
+
+# gentoo-kernel
+sys-kernel/gentoo-kernel savedconfig
+
+# sys-apps/util-linux
+sys-apps/util-linux -tty-helpers
+sys-apps/util-linux -udev
+
+# Networkmanager (argument)
+net-wireless/wpa_supplicant dbus
+
+# Systemd (argument)
+sys-apps/dbus systemd
+
+# Xorg (argument)
+media-libs/libglvnd X
+
+# media-libs/freetype
+media-libs/harfbuzz abi_x86_32
+media-libs/freetype harfbuzz
+media-libs/freetype -harfbuzz
+media-gfx/graphite2 abi_x86_32
+dev-libs/glib abi_x86_32
+dev-libs/libpcre abi_x86_32
+dev-libs/libffi abi_x86_32
+virtual/libiconv abi_x86_32
+
+# Anti-Virus Software
+sys-libs/libselinux python
+sys-process/audit python
+
+# firewalld (argument)
+net-firewall/nftables xtables python json
+
+# media-sound
+media-libs/libpulse X
+x11-libs/libpciaccess abi_x86_32
+dev-libs/fribidi abi_x86_32
+x11-libs/cairo abi_x86_32
+x11-libs/libXft abi_x86_32
+dev-libs/lzo abi_x86_32
+sys-libs/binutils-libs abi_x86_32
+x11-libs/pixman abi_x86_32
+
+# pulseaudio (argument)
+x11-libs/libXext abi_x86_32
+x11-libs/libXfixes abi_x86_32
+media-libs/flac abi_x86_32
+media-libs/libogg abi_x86_32
+media-libs/libvorbis abi_x86_32
+media-libs/opus abi_x86_32
+media-sound/lame abi_x86_32
+media-sound/pulseaudio abi_x86_32
+media-libs/libpulse abi_x86_32
+
+# DNS Detection Software Knot
+dev-qt/qtwebengine widgets
+
+# System Theme Configuration
+# Adwaita-icon-theme
+dev-libs/libpcre2 abi_x86_32
+
+# Others
+x11-libs/libXau abi_x86_32
+x11-libs/libXdmcp abi_x86_32
+x11-base/xcb-proto abi_x86_32
+dev-libs/libbsd abi_x86_32
+app-crypt/libmd abi_x86_32
+
+#--------System USE End--------

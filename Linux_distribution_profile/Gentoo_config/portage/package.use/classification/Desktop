@@ -1,0 +1,44 @@
+## Desktop
+
+# --------
+# KDE
+app-text/xmlto text
+kde-frameworks/kwindowsystem X
+sys-apps/systemd policykit
+kde-frameworks/knotifications X
+
+# XFCE4 (argument)
+dev-libs/libdbusmenu gtk3
+xfce-base/thunar udisks
+gnome-base/gvfs udisks cdda
+
+# Connman
+net-misc/connman iptables
+
+# Gnome
+net-libs/webkit-gtk X
+net-misc/curl abi_x86_32
+dev-libs/libltdl abi_x86_32
+media-libs/gd abi_x86_32
+net-libs/nghttp2 abi_x86_32
+net-dns/c-ares abi_x86_32
+media-libs/clutter X
+dev-libs/libgudev introspection
+media-libs/libcanberra alsa
+dev-cpp/gtkmm X
+x11-libs/gtk+ abi_x86_32
+app-accessibility/at-spi2-core abi_x86_32
+media-libs/libepoxy abi_x86_32
+x11-libs/gdk-pixbuf jpeg abi_x86_32
+x11-libs/libXdamage abi_x86_32
+gnome-base/librsvg abi_x86_32
+dev-libs/glib dbus
+media-libs/gst-plugins-base gles2 theora
+dev-libs/libportal gtk
+app-text/poppler cairo
+virtual/rust abi_x86_32
+dev-lang/rust-bin abi_x86_32
+x11-libs/cairo -X
+media-libs/libtheora abi_x86_32
+
+# --------

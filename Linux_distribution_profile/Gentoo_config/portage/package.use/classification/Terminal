@@ -1,0 +1,34 @@
+## Terminal
+
+# --------
+# terminology (argument)
+dev-lang/orc abi_x86_32
+x11-libs/pango abi_x86_32
+x11-libs/libXv abi_x86_32
+media-libs/mesa abi_x86_32
+media-libs/graphene abi_x86_32
+media-libs/libjpeg-turbo abi_x86_32
+media-libs/gstreamer abi_x86_32
+sys-libs/libcap abi_x86_32
+sys-libs/pam abi_x86_32
+media-libs/libglvnd abi_x86_32
+dev-libs/wayland abi_x86_32
+x11-libs/libdrm abi_x86_32
+x11-libs/libxshmfence abi_x86_32
+x11-libs/libXxf86vm abi_x86_32
+app-arch/zstd abi_x86_32
+sys-devel/llvm abi_x86_32
+x11-libs/libXrandr abi_x86_32
+sys-libs/ncurses abi_x86_32
+virtual/libelf abi_x86_32
+dev-libs/elfutils abi_x86_32
+
+# kitty (argument)
+x11-libs/libXrender abi_x86_32
+
+# chrome-gnome-shell (argument)
+app-crypt/gcr gtk
+gnome-base/gnome-control-center networkmanager
+net-print/cups dbus
+net-fs/samba client
+# --------

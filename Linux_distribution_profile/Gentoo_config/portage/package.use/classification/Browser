@@ -1,0 +1,15 @@
+## Browser
+
+# --------
+# Chromium (argument)
+dev-libs/libxml2 icu
+media-libs/harfbuzz icu
+sys-libs/zlib minizip
+net-libs/nodejs inspector
+
+# Firefox (argument)
+media-libs/libvpx postproc
+
+# Vivaldi (argument)
+x11-libs/pango X
+# --------

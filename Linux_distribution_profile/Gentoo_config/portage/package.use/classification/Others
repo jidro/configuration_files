@@ -1,0 +1,64 @@
+## Other Classification Software
+
+# --------
+
+# Fontconfig
+virtual/libintl abi_x86_32
+
+# Snapd (argument)
+sys-fs/squashfs-tools lzma
+
+# Virt-manager (argument)
+net-dns/dnsmasq script
+
+# Ktorrent (argument)
+dev-qt/qtwebchannel qml
+
+# Breeze
+media-libs/mesa wayland
+kde-frameworks/kitemmodels qml
+dev-qt/qtgui egl X
+
+# kdenlive (argument)
+media-libs/mlt xml ffmpeg frei0r qt5 sdl
+media-video/ffmpeg sdl X
+media-libs/libsdl2 X opengl
+media-libs/opencv contribdnn
+
+# trosh (argument)
+media-libs/devil png tiff mng
+media-libs/libsdl opengl
+
+# pantheon-extra/pantheon-tweaks (argument)
+media-libs/clutter-gtk X
+
+# q4wine (argument)
+dev-qt/qtsingleapplication X
+
+# wine (argument)
+x11-libs/libXcursor abi_x86_32
+sys-devel/gettext abi_x86_32
+net-libs/gnutls abi_x86_32
+sys-apps/dbus abi_x86_32
+sys-libs/libunwind abi_x86_32
+x11-libs/libXcomposite abi_x86_32
+app-emulation/wine-gecko abi_x86_32
+dev-libs/libtasn1 abi_x86_32
+dev-libs/libunistring abi_x86_32
+dev-libs/nettle abi_x86_32
+dev-libs/gmp abi_x86_32
+net-dns/libidn2 abi_x86_32
+virtual/opengl abi_x86_32
+virtual/libudev abi_x86_32
+sys-apps/systemd abi_x86_32
+dev-libs/libgcrypt abi_x86_32
+app-arch/lz4 abi_x86_32
+dev-libs/libgpg-error abi_x86_32
+
+# turtlearena (argument)
+media-libs/libsdl X
+
+# pacmanarena (argument)
+media-libs/sdl-mixer vorbis
+
+# --------

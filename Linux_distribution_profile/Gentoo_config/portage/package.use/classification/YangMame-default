@@ -1,0 +1,28 @@
+#### YangMame default
+
+dev-lang/python sqlite
+sys-apps/dbus user-session
+#sys-kernel/gentoo-sources experimental symlink
+#app-portage/layman sync-plugin-portage
+#net-wireless/wpa_supplicant -qt5
+app-i18n/fcitx gtk3 opencc
+#app-admin/keepassxc yubikey autotype network browser
+#net-misc/remmina ssh rdp vnc
+#app-editors/vim lua luajit perl ruby terminal
+#app-office/libreoffice java
+#app-crypt/pinentry gnome-keyring
+
+# pulseaudio-modules-bt
+#media-sound/pulseaudio -bluetooth
+
+# Qtox
+#media-video/ffmpeg webp v4l
+
+# Neofetch
+www-client/w3m imlib
+
+# Fish
+dev-libs/libpcre2 pcre32
+
+# Chromium
+#www-client/chromium widevine jumbo-build

@@ -1,0 +1,13 @@
+## Games
+
+# --------
+#  Steam (argument)
+x11-libs/cairo X
+app-text/ghostscript-gpl cups
+media-plugins/alsa-plugins pulseaudio
+
+# Winegame-client (argument)
+media-libs/gst-plugins-base gles2
+media-libs/gst-plugins-bad gles2
+net-nds/openldap abi_x86_32
+#--------

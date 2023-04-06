@@ -1,0 +1,40 @@
+## Chatting Software
+
+# --------
+# net-im/dingtalk (argument)
+x11-libs/libxkbcommon X
+
+# weixin-uos (argument)
+x11-libs/gtk+ X
+
+# deepin-wine-wechat (argument)
+dev-libs/openssl abi_x86_32
+media-libs/alsa-lib abi_x86_32
+media-libs/libgphoto2 abi_x86_32
+media-libs/gst-plugins-base abi_x86_32
+media-libs/lcms abi_x86_32
+media-sound/mpg123 abi_x86_32
+media-libs/openal abi_x86_32
+net-libs/libpcap abi_x86_32
+media-libs/libcanberra abi_x86_32 pulseaudio
+x11-libs/libX11 abi_x86_32
+dev-libs/libxml2 abi_x86_32
+sys-libs/zlib abi_x86_32
+media-libs/fontconfig abi_x86_32
+media-libs/freetype abi_x86_32
+dev-libs/icu abi_x86_32
+x11-libs/libxcb abi_x86_32
+app-arch/bzip2 abi_x86_32
+media-libs/libpng abi_x86_32
+dev-libs/expat abi_x86_32
+sys-apps/util-linux abi_x86_32
+media-plugins/alsa-plugins abi_x86_32
+media-libs/libsndfile abi_x86_32
+net-libs/libasyncns abi_x86_32
+x11-libs/libXi abi_x86_32
+
+# net-im/telegram-desktop
+dev-qt/qtgui jpeg dbus
+media-video/ffmpeg opus
+app-crypt/pinentry gnome-keyring
+# --------
