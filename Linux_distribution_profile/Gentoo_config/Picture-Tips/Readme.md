@@ -1,16 +1,19 @@
-## 引言：
-
-这两张截图是在`Bilibili`网站上看到的安装`Gentoo`很有帮助的`Gentoo`安装教程的图片。
-
-已经忘记了谁发布的视频，大概已经有一段时间了。
-
-或许是2022年前后的一段视频（？），记不清了。
 
 # 图片介绍：
 
 将分别介绍该文件夹中的两张图像，并写下认为对更有用的部分。
 
 如果需要其他部分，可以自己查看。
+
+## 中文说明：
+
+### 引言：
+
+这两张截图是在`Bilibili`网站上看到的安装`Gentoo`很有帮助的`Gentoo`安装教程的图片。
+
+已经忘记了谁发布的视频，大概已经有一段时间了。
+
+或许是2022年前后的一段视频（？），记不清了。
 
 ### [`gentoo_make.conf.png`](https://github.com/jidro/configuration_files/blob/master/Linux_distribution_profile/Gentoo_config/Picture-Tips/gentoo_make.conf.png "gentoo_make.conf.png")
 
