@@ -16,6 +16,8 @@
 
 ### [`gentoo_make.conf.png`](https://github.com/jidro/configuration_files/blob/master/Linux_distribution_profile/Gentoo_config/Picture-Tips/gentoo_make.conf.png "gentoo_make.conf.png")
 
+![](gentoo_make.conf.png)
+
 该图片是配置`make.conf`时参考的配置文件（大部分在`USE`部分）。
 
 自己配置的`make.conf`文件，不知道为什么在配置后不断提示软件安装错误。
@@ -55,6 +57,8 @@ GRUB_PLATFORMS="efi-64"
 ```
 
 ### [`gentoo_dispatch-conf.png`](https://github.com/jidro/configuration_files/blob/master/Linux_distribution_profile/Gentoo_config/Picture-Tips/gentoo_dispatch-conf.png "gentoo_dispatch-conf.png")
+
+![](gentoo_dispatch-conf.png)
 
 起初，在尝试安装`Gentoo`时，屏幕上出现了这个场景，不知道该怎么做，但后来在视频中看到了这一步，意识到是这样处理的。
 
@@ -169,6 +173,8 @@ Maybe a video around 2022 ( ? ), I can 't remember.
 
 ### [`gentoo_make.conf.png`](https://github.com/jidro/configuration_files/blob/master/Linux_distribution_profile/Gentoo_config/Picture-Tips/gentoo_make.conf.png "gentoo_make.conf.png")
 
+![](gentoo_make.conf.png)
+
 This image is the configuration file referenced when configuring `make.conf` ( mostly in the `USE` section ).
 
 Configuring your own `make.conf` file, I do not know why the software installation errors are constantly prompted after configuration.
@@ -208,6 +214,8 @@ GRUB_PLATFORMS="efi-64"
 ```
 
 ### [`gentoo_dispatch-conf.png`](https://github.com/jidro/configuration_files/blob/master/Linux_distribution_profile/Gentoo_config/Picture-Tips/gentoo_dispatch-conf.png "gentoo_dispatch-conf.png")
+
+![](gentoo_dispatch-conf.png)
 
 At first, when trying to install `Gentoo`, the scene appeared on the screen and did not know what to do, but later saw this step in the video and realized that it was handled in this way.
 
