@@ -1,4 +1,3 @@
-
 # 图片介绍：
 
 将分别介绍该文件夹中的两张图像，并写下认为对更有用的部分。
@@ -16,8 +15,6 @@
 或许是2022年前后的一段视频（？），记不清了。
 
 ### [`gentoo_make.conf.png`](https://github.com/jidro/configuration_files/blob/master/Linux_distribution_profile/Gentoo_config/Picture-Tips/gentoo_make.conf.png "gentoo_make.conf.png")
-
-![](gentoo_make.conf.png)
 
 该图片是配置`make.conf`时参考的配置文件（大部分在`USE`部分）。
 
@@ -59,11 +56,9 @@ GRUB_PLATFORMS="efi-64"
 
 ### [`gentoo_dispatch-conf.png`](https://github.com/jidro/configuration_files/blob/master/Linux_distribution_profile/Gentoo_config/Picture-Tips/gentoo_dispatch-conf.png "gentoo_dispatch-conf.png")
 
-![](gentoo_dispatch-conf.png)
-
 起初，在尝试安装`Gentoo`时，屏幕上出现了这个场景，不知道该怎么做，但后来在视频中看到了这一步，意识到是这样处理的。
 
-非常感谢这位博主的视频。当然，这些都是在`Gentoo`的`Wiki`上有写的。
+非常感谢这位博主的视频。当然，这些都是在[`Gentoo`的`Wiki`](https://wiki.gentoo.org/wiki/Main_Page)上有写的。
 
 真的很感激这个视频博主。通过他的视频，第一次成功安装并使用了`Gentoo`系统。
 
@@ -98,7 +93,7 @@ GRUB_PLATFORMS="efi-64"
 root # dispatch-conf
 ```
 
-当运行 `dispatch-conf`的时候，程序会带你把每个改变了的配置文件挨个过一边。
+当运行 `dispatch-conf`的时候，程序会带你逐一查看每一个需修改配置文件。
 
 - 按 `u` 键来用新配置文件更新（替换）现在的配置文件，然后继续处理下一个。
   
@@ -123,11 +118,15 @@ root # dispatch-conf
   > 
   > 所以要非常小心，因为使用`etc-update` 与使用 `dispatch-conf` 相比明显的不安全。
   > 
+  > 执行`etc-update`命令后：
+  > 
   > 如果输入`-1`， `etc-update`将直接退出且不执行任何变更。
   > 
   > 如果输入`-3` 或者 `-5`，所有列出的配置文件将被更新的版本覆盖。
   > 
   > 因此先选出无需自动升级的配置文件非常重要，而具体步骤也很简单，只需要输入在该配置文件左边显示的数字就可以了。
+  > 
+  > 再之后的操作如下：
   > 
   > 如果认为升级的配置文件可以正确无误的投入使用，输入`1`。
   > 
@@ -150,3 +149,163 @@ root # dispatch-conf
   > 预编译包会保存在 `$PKGDIR` 默认为 （`/var/cache/binpkgs/`）。
   > 
   > 这些包的保存在`$PKGDIR/CATEGORY`中。
+  
+
+---
+
+## English description：
+
+You will introduce two images in the folder and write down what you think is more useful.
+
+If you need other parts, you can view it yourself.
+
+### Introduction ：
+
+These two screenshots are pictures of the `Gentoo` installation tutorial that are helpful to install `Gentoo` on the `Bilibili` website.
+
+It has been forgotten who released the video, probably for some time.
+
+Maybe a video around 2022 ( ? ), I can 't remember.
+
+### [`gentoo_make.conf.png`](https://github.com/jidro/configuration_files/blob/master/Linux_distribution_profile/Gentoo_config/Picture-Tips/gentoo_make.conf.png "gentoo_make.conf.png")
+
+This image is the configuration file referenced when configuring `make.conf` ( mostly in the `USE` section ).
+
+Configuring your own `make.conf` file, I do not know why the software installation errors are constantly prompted after configuration.
+
+As a novice programmer, I know nothing about programming and the place where the error occurs.
+
+Therefore, a configuration that is considered slightly simple was found, so the configuration was first replicated.
+
+#### The contents are as follows ：
+
+```shell
+# These settings were set by the catalyst build script that automatically
+# built this stage.
+# Please consult /usr/share/portage/config/make.conf. example for a more
+# detailed example.
+COMMON_FLAGS="-march=native -O2 -pipe"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+
+# NOTE: This stage was built with the bindist Use flag enabled
+PORTDIR="/var/db/repos/gentoo"
+DISTDIR="/var/cache/distfiles"
+PKGDIR="/var/cache/binpkgs"
+
+# This sets the language of build output to English.
+# Please keep this setting intact when reporting bugs.
+LC_MESSAGES=C
+
+EMERGE_DEFAULT_OPTS="--autounmask"
+MAKEOPTS="-j8"
+ACCEPT_LICENSE="*"
+GENTOO_MIRRORS="https://mirrors.bfsu.edu.cn/gentoo"
+USE="-doc -debug -test -examples -kde -gtk2 -qt4 -gtk-doc -fortran clang wayland X dbus policykit zstd screencast gnome pipewire nvidia  alsa"
+GRUB_PLATFORMS="efi-64"
+```
+
+### [`gentoo_dispatch-conf.png`](https://github.com/jidro/configuration_files/blob/master/Linux_distribution_profile/Gentoo_config/Picture-Tips/gentoo_dispatch-conf.png "gentoo_dispatch-conf.png")
+
+At first, when trying to install `Gentoo`, the scene appeared on the screen and did not know what to do, but later saw this step in the video and realized that it was handled in this way.
+
+Thank you very much for this video.
+
+Of course, these are written on the [`Wiki` of `Gentoo`](https://wiki.gentoo.org/wiki/Main_Page).
+
+I really appreciate this video blogger.
+
+Through his video, the `Gentoo` system was successfully installed and used for the first time.
+
+#### The contents are as follows ：
+
+After that, you are frequently prompted to update the configuration file.
+
+When prompted to update the configuration, use `dispatch-conf` to enter the configuration and enter `u` to update.
+
+##### [Gentoo Wiki](https://wiki.gentoo.org/wiki/Handbook:AMD64/Portage/Tools/zh-cn)：
+
+`Dispatch-conf` is a tool that helps merge `._cfg0000_ < name >`.
+
+ `._cfg0000_ < name >` is created by `Portage` to overwrite files in a directory protected by the `CONFIG_PROTECT` variable.
+
+Using `dispatch-conf `, it is possible to keep a record of all updates while merging configuration files and upgrading updates. 
+
+`Dispatch-conf` saves differences between configuration files in the form of `RCS` version control system or patches.
+
+This means that if you make a mistake upgrading your configuration file, you can always go back to a previous version of your configuration file.
+
+With `dispatch-conf` , you can keep the configuration file as it was, or use a new configuration file, edit the current file or interactively merge updates.
+
+In addition to this, `dispatch-conf` has some great features：
+
+- Files with only annotation changes can be automatically merged.
+- Different files with only the number of whitespace can be automatically merged.
+
+First edit `/etc/dispatch-conf.conf`, and create the directory set by the `archive-dir` variable, then execute `dispatch-conf`：
+
+```shell
+root # dispatch-conf
+```
+
+When running `dispatch-conf `, the program will take you side by side with each changed configuration file.
+
+- Press the `u` key to update ( replace ) the current configuration file with the new one, and then proceed to the next one.
+  
+- Press the `z` key to delete the new configuration file, and then proceed to the next one.
+  
+- Press `n` to make `dispatch-conf` jump to the next file. This can delay the merge to a future time.
+  
+- Press the `q` key to exit the current configuration.
+  
+
+After processing all configuration files, `dispatch-conf` exits.
+
+###### `dispatch-conf` replacement :
+
+- ① You can also use [`etc-update`](https://wiki.gentoo.org/wiki/Handbook:AMD64/Portage/Tools/zh-cn#etc-update) to merge configuration files.
+  
+  > `Etc-update` is not as easy to use as `dispatch-conf` and has few features, but it also provides interactive merge functionality and can automatically merge some simple changes.
+  > 
+  > However, unlike `dispatch-conf`, `etc-update` does ***not*** keep older versions of configuration files.
+  > 
+  > Once the file is updated, the old version is lost forever.
+  > 
+  > So be very careful, because using `etc-update` is obviously not safe compared to using `dispatch-conf`.
+  > 
+  > After executing the etc-update command:
+  > 
+  > If you enter `-1`, `etc-update` will exit without making any changes.
+  > 
+  > If you enter `-3` or `-5`, all listed profiles will be overwritten by the updated version.
+  > 
+  > Therefore, it is important to select the configuration file that does not need to be automatically upgraded first, and the specific steps are as simple as entering the number displayed to the left of the configuration file.
+  > 
+  > After that, the operation is as follows:
+  > 
+  > If you think the upgraded profile can be used correctly, enter `1`.
+  > 
+  > If you think the upgraded configuration file is unnecessary or does not provide any new or useful information, enter `2`.
+  > 
+  > If you want to interactively upgrade the current configuration file, enter `3`.
+  > 
+  > After the update of important configuration files is completed, the remaining other configuration files can be automatically updated.
+  > 
+  > `Etc-update` will exit when no more updatable configuration files can be found.
+  
+- ② You can also use [`quickpkg`](https://wiki.gentoo.org/wiki/Handbook:AMD64/Portage/Tools/zh-cn#quickpkg) to package and archive installed packages in the system.
+  
+  > Using `quickpkg`, packages installed in the system can be packaged and archived.
+  > 
+  > These archive files can be used as precompiled packages.
+  > 
+  > Running `quickpkg` is very simple: just add the name of the package you want to make.
+  > 
+  > Precompiled packages are saved in `$PKGDIR` by default (`/var/cache/binpkgs/`).
+  > 
+  > These packages are saved in `$PKGDIR/CATEGORY`.
+  
+
+---
