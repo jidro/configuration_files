@@ -70,7 +70,7 @@ GRUB_PLATFORMS="efi-64"
 
 当提示更新配置时，使用`dispatch-conf`进入配置并输入`u`进行更新。
 
-##### Gentoo Wiki：
+##### [Gentoo Wiki](https://wiki.gentoo.org/wiki/Handbook:AMD64/Portage/Tools/zh-cn)：
 
 `dispatch-conf`是一个帮助合并 `._cfg0000_<name>`的工具。
 
@@ -110,7 +110,7 @@ root # dispatch-conf
 
 ###### `dispatch-conf`平替：
 
-- ① 也可以使用 `etc-update`来合并配置文件。
+- ① 也可以使用 [`etc-update`](https://wiki.gentoo.org/wiki/Handbook:AMD64/Portage/Tools/zh-cn#etc-update)来合并配置文件。
   
   > `etc-update`不像`dispatch-conf`那样简单易用，功能也少，但是也能提供交互式合并功能并且能自动合并一些简单的改变。
   > 
@@ -136,7 +136,7 @@ root # dispatch-conf
   > 
   > 当无法再找到任何可更新的配置文件时`etc-update`将退出。
   
-- ② 也可以利用`quickpkg`可以对系统中已安装的包进行打包归档。
+- ② 也可以利用[`quickpkg`](https://wiki.gentoo.org/wiki/Handbook:AMD64/Portage/Tools/zh-cn#quickpkg)可以对系统中已安装的包进行打包归档。
   
   > 利用`quickpkg`可以对系统中已安装的包进行打包归档。
   > 
@@ -144,6 +144,6 @@ root # dispatch-conf
   > 
   > 运行`quickpkg`非常简单：只要加上想要制作的软件包的名字就可以了。
   > 
-  > 预编译包会保存在 `$PKGDIR` 默认为 （`/var/cache/binpkgs/` ）。
+  > 预编译包会保存在 `$PKGDIR` 默认为 （`/var/cache/binpkgs/`）。
   > 
   > 这些包的保存在`$PKGDIR/CATEGORY`中。
