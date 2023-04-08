@@ -14,6 +14,8 @@
 
 ### [`gentoo_make.conf.png`](https://github.com/jidro/configuration_files/blob/master/Linux_distribution_profile/Gentoo_config/Picture-Tips/gentoo_make.conf.png "gentoo_make.conf.png")
 
+![](gentoo_make.conf.png)
+
 该图片是配置`make.conf`时参考的配置文件（大部分在`USE`部分）。
 
 自己配置的`make.conf`文件，不知道为什么在配置后不断提示软件安装错误。
@@ -53,6 +55,8 @@ GRUB_PLATFORMS="efi-64"
 ```
 
 ### [`gentoo_dispatch-conf.png`](https://github.com/jidro/configuration_files/blob/master/Linux_distribution_profile/Gentoo_config/Picture-Tips/gentoo_dispatch-conf.png "gentoo_dispatch-conf.png")
+
+![](gentoo_dispatch-conf.png)
 
 起初，在尝试安装`Gentoo`时，屏幕上出现了这个场景，不知道该怎么做，但后来在视频中看到了这一步，意识到是这样处理的。
 
