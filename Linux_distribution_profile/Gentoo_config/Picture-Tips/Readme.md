@@ -1,5 +1,7 @@
 # 图片介绍：
 
+------
+
 将分别介绍该文件夹中的两张图像，并写下认为对更有用的部分。
 
 如果需要其他部分，可以自己查看。
@@ -16,7 +18,7 @@
 
 ### [`gentoo_make.conf.png`](https://github.com/jidro/configuration_files/blob/master/Linux_distribution_profile/Gentoo_config/Picture-Tips/gentoo_make.conf.png "gentoo_make.conf.png")
 
-![](gentoo_make.conf.png)
+![make.conf](gentoo_make.conf.png)
 
 该图片是配置`make.conf`时参考的配置文件（大部分在`USE`部分）。
 
@@ -58,7 +60,7 @@ GRUB_PLATFORMS="efi-64"
 
 ### [`gentoo_dispatch-conf.png`](https://github.com/jidro/configuration_files/blob/master/Linux_distribution_profile/Gentoo_config/Picture-Tips/gentoo_dispatch-conf.png "gentoo_dispatch-conf.png")
 
-![](gentoo_dispatch-conf.png)
+![dispatch-conf](gentoo_dispatch-conf.png)
 
 起初，在尝试安装`Gentoo`时，屏幕上出现了这个场景，不知道该怎么做，但后来在视频中看到了这一步，意识到是这样处理的。
 
@@ -173,7 +175,7 @@ Maybe a video around 2022 ( ? ), I can 't remember.
 
 ### [`gentoo_make.conf.png`](https://github.com/jidro/configuration_files/blob/master/Linux_distribution_profile/Gentoo_config/Picture-Tips/gentoo_make.conf.png "gentoo_make.conf.png")
 
-![](gentoo_make.conf.png)
+![make.conf](gentoo_make.conf.png)
 
 This image is the configuration file referenced when configuring `make.conf` ( mostly in the `USE` section ).
 
@@ -215,7 +217,7 @@ GRUB_PLATFORMS="efi-64"
 
 ### [`gentoo_dispatch-conf.png`](https://github.com/jidro/configuration_files/blob/master/Linux_distribution_profile/Gentoo_config/Picture-Tips/gentoo_dispatch-conf.png "gentoo_dispatch-conf.png")
 
-![](gentoo_dispatch-conf.png)
+![dispatch-conf](gentoo_dispatch-conf.png)
 
 At first, when trying to install `Gentoo`, the scene appeared on the screen and did not know what to do, but later saw this step in the video and realized that it was handled in this way.
 
