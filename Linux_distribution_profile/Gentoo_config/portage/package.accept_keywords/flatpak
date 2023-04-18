@@ -1,1 +1,4 @@
-sys-apps/flatpak ~amd64\nacct-user/flatpak ~amd64\nacct-group/flatpak ~amd64\ndev-util/ostree ~amd64
+sys-apps/flatpak ~amd64
+nacct-user/flatpak ~amd64
+nacct-group/flatpak ~amd64
+ndev-util/ostree ~amd64
