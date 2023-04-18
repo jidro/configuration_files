@@ -22,6 +22,10 @@ sys-kernel/gentoo-kernel savedconfig
 sys-apps/util-linux -tty-helpers
 sys-apps/util-linux -udev
 
+
+# gvfs (argument)
+gnome-base/gvfs afp archive fuse google gphoto2 ios mtp nfs samba
+
 # Networkmanager (argument)
 net-wireless/wpa_supplicant dbus
 
@@ -58,6 +62,9 @@ dev-libs/lzo abi_x86_32
 sys-libs/binutils-libs abi_x86_32
 x11-libs/pixman abi_x86_32
 
+# pipewire (argument)
+media-video/pipewire extra gstreamer v4l
+
 # pulseaudio (argument)
 x11-libs/libXext abi_x86_32
 x11-libs/libXfixes abi_x86_32
@@ -82,5 +89,6 @@ x11-libs/libXdmcp abi_x86_32
 x11-base/xcb-proto abi_x86_32
 dev-libs/libbsd abi_x86_32
 app-crypt/libmd abi_x86_32
+x11-libs/libxkbcommon abi_x86_32
 
 #--------System USE End--------
