@@ -17,19 +17,20 @@
 #
 # For example:
 #
-#      102.54.94.97     rhino.acme.com          # source server
-#       38.25.63.10	    x.acme.com	            # x client host
+#	102.54.94.97	rhino.acme.com	# source server
+#	38.25.63.10		x.acme.com		# x client host
 # localhost name resolution is handled within DNS itself.
-#	127.0.0.1       localhost
-#	::1            	localhost
+#	127.0.0.1		localhost
+#	::1			localhost
 ##
-127.0.0.1			    localhost
-127.0.1.1			    localhost.localdomain	        localhost
+127.0.0.1			localhost
+127.0.1.1			localhost.localdomain	localhost
 255.255.255.255		broadcasthost
 
 # The following lines are desirable for IPv6 capable hosts
-::1				    localhost 			  ip6-localhost 		  ip6-loopback
-fe00::0			  ip6-localnet
-ff00::0			  ip6-mcastprefix
+::1				localhost			ip6-localhost		ip6-loopback
+fe00::0			ip6-localnet
+ff00::0			ip6-mcastprefix
 ff02::1 			ip6-allnodes
 ff02::2 			ip6-allrouters
+ff02::3			ip6-allhosts
