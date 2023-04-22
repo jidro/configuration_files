@@ -11,7 +11,7 @@
 # GNU General Public License for more details.
 #
 # You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 # Red Hat Author(s): Carlos Santos
 
@@ -20,5 +20,5 @@ if ( ! $?prompt | ! $?tcsh | ! $?TERM | ! $?VTE_VERSION ) exit
 
 switch($TERM)
   case xterm*:
-    alias precmd 'echo -n "\e]7;file://$HOST"; /usr/lib64/libvte/vte-urlencode-cwd; echo -n "\e\\"'
+    alias precmd 'echo -n "\e]7;file://$HOST"; /usr/libexec/vte-urlencode-cwd; echo -n "\e\\"'
 endsw
