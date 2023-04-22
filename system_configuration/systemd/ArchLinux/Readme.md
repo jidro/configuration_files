@@ -1,4 +1,4 @@
-# ArchLInux自动更新镜像站
+# ArchLinux自动更新镜像站
 
 > ArchLinux Auto update mirror station
 
