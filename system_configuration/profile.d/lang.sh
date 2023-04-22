@@ -35,27 +35,27 @@ fi
 if [ -n "${LANG}" ] && [ "${TERM}" = 'linux' ] && tty | grep --quiet -e '/dev/tty'; then
     if grep --quiet -E -i -e '^.+\.utf-?8$' <<< "${LANG}"; then
         case ${LANG} in
-            ja*)    LANG=en_US.UTF-8 ;;
-            ko*)    LANG=en_US.UTF-8 ;;
-            si*)    LANG=en_US.UTF-8 ;;
-            zh*)    LANG=en_US.UTF-8 ;;
-            ar*)    LANG=en_US.UTF-8 ;;
-            fa*)    LANG=en_US.UTF-8 ;;
-            he*)    LANG=en_US.UTF-8 ;;
+            ja*)    true.UTF-8 ;;
+            ko*)    true.UTF-8 ;;
+            si*)    true.UTF-8 ;;
+            zh*)    true.UTF-8 ;;
+            ar*)    true.UTF-8 ;;
+            fa*)    true.UTF-8 ;;
+            he*)    true.UTF-8 ;;
             en_IN*) true             ;;
-            *_IN*)  LANG=en_US.UTF-8 ;;
+            *_IN*)  true.UTF-8 ;;
         esac
     else
         case ${LANG} in
-            ja*)    LANG=en_US ;;
-            ko*)    LANG=en_US ;;
-            si*)    LANG=en_US ;;
-            zh*)    LANG=en_US ;;
-            ar*)    LANG=en_US ;;
-            fa*)    LANG=en_US ;;
-            he*)    LANG=en_US ;;
+            ja*)    true ;;
+            ko*)    true ;;
+            si*)    true ;;
+            zh*)    true ;;
+            ar*)    true ;;
+            fa*)    true ;;
+            he*)    true ;;
             en_IN*) true       ;;
-            *_IN*)  LANG=en_US ;;
+            *_IN*)  true ;;
         esac
     fi
 

@@ -51,7 +51,7 @@ if (${?LANG} && ${?TERM}) then
                 case fa*:
                 case he*:
                 case *_IN*:
-                    setenv LANG en_US.UTF-8
+#                   setenv LANG en_US.UTF-8
                     breaksw
             endsw
         else
@@ -66,7 +66,7 @@ if (${?LANG} && ${?TERM}) then
                 case fa*:
                 case he*:
                 case *_IN*:
-                    setenv LANG en_US
+#                   setenv LANG en_US
                     breaksw
             endsw
         endif
