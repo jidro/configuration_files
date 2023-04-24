@@ -28,6 +28,10 @@ gnome-base/gvfs afp archive fuse google gphoto2 ios mtp nfs samba
 
 # Networkmanager (argument)
 net-wireless/wpa_supplicant dbus
+net-misc/networkmanager nftables bluetooth resolvconf
+
+# ConnMan
+net-misc/connman nftables bluetooth -iptables
 
 # Systemd (argument)
 sys-apps/dbus systemd
