@@ -32,6 +32,11 @@ media-plugins/alsa-plugins abi_x86_32
 media-libs/libsndfile abi_x86_32
 net-libs/libasyncns abi_x86_32
 x11-libs/libXi abi_x86_32
+app-emulation/vkd3d abi_x86_32
+media-libs/mesa osmesa
+virtual/libusb abi_x86_32
+dev-libs/libusb abi_x86_32
+dev-libs/opencl-icd-loader abi_x86_32
 
 # net-im/telegram-desktop
 dev-qt/qtgui jpeg dbus

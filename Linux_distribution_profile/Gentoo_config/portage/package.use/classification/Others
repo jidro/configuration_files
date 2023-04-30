@@ -77,6 +77,9 @@ sys-apps/dbus X
 # WPS-Office
 dev-libs/atk abi_x86_32
 
+# app-editors/ghostwriter (argument)
+dev-qt/qtcore icu
+
 # OBS-Studio
 media-video/ffmpeg x264
 
@@ -106,5 +109,8 @@ dev-ruby/kpeg ruby_targets_ruby31
 dev-ruby/racc ruby_targets_ruby31
 dev-ruby/stringio ruby_targets_ruby31
 virtual/ruby-ssl ruby_targets_ruby31
+
+# app-text/qpdfview (argument)
+app-text/poppler qt5
 
 # --------
