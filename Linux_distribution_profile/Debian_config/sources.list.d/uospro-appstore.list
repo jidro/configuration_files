@@ -1,2 +1,3 @@
 # Writtten by deepin-home-appstore-client
 deb https://pro-store-packages.uniontech.com/appstore eagle-pro appstore
+deb-src https://pro-store-packages.uniontech.com/appstore eagle-pro appstore

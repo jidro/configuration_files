@@ -1,1 +1,2 @@
 deb https://home-packages.chinauos.com/printer eagle non-free
+deb-src https://home-packages.chinauos.com/printer eagle non-free
