@@ -1,0 +1,118 @@
+# Environment variable
+# An environment variable is a named object that contains data 
+# that can be used by one or more applications. 
+# Simply put, it is a variable with a pair of names and values. 
+# The value of an environment variable can be the location 
+# of all executables on the file system, the default editor, 
+# system localization settings, and so on. 
+# New Linux users may find this approach 
+# to variable management a bit confusing. 
+# But environment variables provide an easy way 
+# to share configuration across multiple programs and processes.
+
+## Fcitx5 configuration. 
+#
+# Here is the configuration associated with Fcitx5.
+# With this configuration, 
+# the Fcitx5 input method is ready for normal use.
+XIM=fcitx5
+XIM_PROGRAM=fcitx5
+GTK_IM_MODULE=fcitx5
+QT_IM_MODULE=fcitx5
+XMODIFIERS=@im=fcitx5
+SDL_IM_MODULE=fcitx5
+#GLFW_IM_MODULE=ibus
+GLFW_IM_MODULE=fcitx5
+# Since then, the configuration has been commented out 
+# as a part of the configuration. 
+# Previously, 
+# the configuration used after this line was not the configuration 
+# before this line. 
+# After testing, we found that many software can not be used, 
+# so I changed it to the configuration before this line, 
+# and it worked fine, 
+# but the configuration after this line is the one mentioned in ArchWiKi, 
+# and I don't know why it didn't pass the test, 
+# so I left it here, 
+# as a memento of it as is.
+#XIM=fcitx5
+#XIM_PROGRAM=fcitx5
+#GTK_IM_MODULE=fcitx5
+#QT_IM_MODULE=fcitx5
+#XMODIFIERS=@im=fcitx5
+#SDL_IM_MODULE=fcitx5
+##GLFW_IM_MODULE=ibus
+#GLFW_IM_MODULE=fcitx5
+
+## iBus configuration.
+# create home/user/.xprofile, add following commands
+#export XMODIFIERS=@im=ibus
+#export GTK_IM_MODULE=ibus
+#export QT_IM_MODULE=ibus
+#ibus-daemon -drx
+
+## The base directory where user-specific data files should be stored.
+#
+# XDG_DATA_DIR is an environment variable 
+# that specifies a user-specific data file store directory path. 
+# It is defined according to the XDG standard, 
+# a specification for defining application behavior 
+# on Linux and Unix systems. 
+# According to the XDG specification, 
+# on Linux and Unix systems, 
+# different types of applications need to store their configuration files, 
+# cache data, and other types of data in different directories. 
+# Where the XDG_DATA_DIR variable is used to specify the main directory 
+# path where an application can write its user data, 
+# such as documents, music, pictures, and so on.
+XDG_DATA_DIRS='/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/:$HOME/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share'
+
+## Qt Accessibility configuration
+#
+# The QT Accessibility module is designed 
+# to help developers easily support Accessibility requirements, 
+# making the applications they develop more accessible 
+# to the disabled and the elderly. 
+# Specifically, 
+# the module provides apis that control properties such as widget size, 
+# color, keyboard focus, and information 
+# that can be used by screen readers and other assistive technologies. 
+# When the user's operating system 
+# and desktop environment support Accessibility, 
+# the QT Accessibility module 
+# will automatically interact with these features, 
+# ensuring that developer-created applications can integrate with 
+# various assistive technologies.
+QT_ACCESSIBILITY=1
+
+## Default text editor configuration
+#
+EDITOR='nano'
+
+## Default visual effects configuration
+#
+VISUAL='nano'
+
+## The default Pager configuration
+#
+PAGER='most'
+
+## Setting Chinese locales.
+#
+#LANG="zh_CN.UTF-8"
+
+## GCC warning and error color configuration
+#
+export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+
+## systemctl automatically pages
+#
+# Uncomment the following line 
+# if you don't like systemctl's auto-paging feature:
+#SYSTEMD_PAGER=
+
+## Add sbin directories to PATH.
+# This is useful on systems that have sudo
+#PATH='$HOME/.local/bin:$PATH'
+#PATH='/bin:/sbin:/usr/bin:/usr/local/bin:/usr/sbin:/mnt/sysimage/sbin:/mnt/sysimage/usr/sbin:/mnt/sysimage/bin:/mnt/sysimage/usr/bin:/opt/bin:/opt/sbin'
+
