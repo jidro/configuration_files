@@ -22,6 +22,8 @@ sys-kernel/gentoo-kernel savedconfig
 sys-apps/util-linux -tty-helpers
 sys-apps/util-linux -udev
 
+# vte-ng
+x11-libs/vte-ng urlencode
 
 # gvfs (argument)
 gnome-base/gvfs afp archive fuse google gphoto2 ios mtp nfs samba
