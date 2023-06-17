@@ -1,36 +1,74 @@
+# Here is the image source that comes with the cd-rom
+# when using the cd-rom installation system.
 # deb cdrom:[Debian GNU/Linux 11.0.0 _Bullseye_ - Official amd64 NETINST 20210814-10:07]/ bullseye main
 # deb cdrom:[Debian GNU/Linux 11.0.0 _Bullseye_ - Official amd64 NETINST 20210814-10:07]/ bullseye main
 
+# This is the primary mirror source for Debian systems
+# and has been changed to what I consider to be the fastest,
+# most stable, and simply configured mirror source address for my use,
+# the University of Science and Technology of China
+# is an open source mirror site.
+# If you don't like it or find it unstable or uncomfortable to use,
+# you can change it to your own.
 deb http://mirrors.ustc.edu.cn/debian/ stable main contrib non-free non-free-firmware
 deb-src http://mirrors.ustc.edu.cn/debian/ stable main contrib non-free non-free-firmware
 
-deb http://mirrors.ustc.edu.cn/debian-security/ stable-security main contrib non-free
-deb-src http://mirrors.ustc.edu.cn/debian-security/ stable-security main contrib non-free
+deb http://mirrors.ustc.edu.cn/debian-security/ stable-security main contrib non-free non-free-firmware
+deb-src http://mirrors.ustc.edu.cn/debian-security/ stable-security main contrib non-free non-free-firmware
 
-# bullseye-updates, to get updates before a point release is made;
+# stable-updates, to get updates before a point release is made;
 # see https://www.debian.org/doc/manuals/debian-reference/ch02.en.html#_updates_and_backports.
 deb http://mirrors.ustc.edu.cn/debian/ stable-updates main contrib non-free non-free-firmware
 deb-src http://mirrors.ustc.edu.cn/debian/ stable-updates main contrib non-free non-free-firmware
 
-deb https://mirrors.bfsu.edu.cn/debian/ bookworm-backports main contrib non-free
-deb-src https://mirrors.bfsu.edu.cn/debian/ bookworm-backports main contrib non-free
+deb http://mirrors.ustc.edu.cn/debian bookworm-proposed-updates main contrib non-free non-free-firmware
+deb-src http://mirrors.ustc.edu.cn/debian bookworm-proposed-updates main contrib non-free non-free-firmware
+
+# Debian Backports provides new packages with new features
+# on supported Debian stable releases.
+# This is the Debian system's backports mirror,
+# which has been changed to what I consider to be the fastest,
+# most stable, and easiest-to-configure mirror source address for my use,
+# the University of Science and Technology of China
+# is an open source mirror site.
+# If you don't like it or find it unstable or uncomfortable to use,
+# you can change it to your own.
+deb https://mirrors.bfsu.edu.cn/debian/ bookworm-backports main contrib non-free non-free-firmware
+deb-src https://mirrors.bfsu.edu.cn/debian/ bookworm-backports main contrib non-free non-free-firmware
+
+# This is the Debian software security update image source,
+# which has been changed to what I consider to be the fastest,
+# most stable, and most easily configured image source address for my use,
+# the University of Science and Technology of China
+# is an open source mirror site.
+# If you don't like it or find it unstable or uncomfortable to use,
+# you can change it to your own.
+deb https://mirrors.aliyun.com/debian-security/ bookworm-security main non-free contrib non-free-firmware
+deb-src https://mirrors.aliyun.com/debian-security/ bookworm-security main non-free contrib non-free-firmware
+
+# This is the third-party multimedia software source image
+# for the Debian system,
+# which has been changed to what I consider to be the fastest,
+# most stable, and simply configured source address for my use,
+# the University of Science and Technology of China
+# is an open source mirror site.
+# If you don't like it or find it unstable or uncomfortable to use,
+# you can change it to your own.
+deb http://mirrors.ustc.edu.cn/debian-multimedia/ stable main contrib non-free
+deb-src http://mirrors.ustc.edu.cn/debian-multimedia/ stable main non-free
+deb http://mirrors.ustc.edu.cn/debian-multimedia/ stable-backports main contrib 
+deb-src http://mirrors.ustc.edu.cn/debian-multimedia/ stable-backports main
+# This is the same as the appeal,
+# are the Debian system
+# of third-party multimedia software source mirror source,
+# can be replaced or co-exist. 
+deb http://mirrors.ustc.edu.cn/deb-multimedia/ stable main contrib non-free
+deb-src http://mirrors.ustc.edu.cn/deb-multimedia/ stable main non-free
+deb http://mirrors.ustc.edu.cn/deb-multimedia/ stable-backports main contrib 
+deb-src http://mirrors.ustc.edu.cn/deb-multimedia/ stable-backports main
 
 # This system was installed using small removable media
 # (e.g. netinst, live or single CD). The matching "deb cdrom"
 # entries were disabled at the end of the installation process.
 # For information about how to configure apt package sources,
 # see the sources.list(5) manual.
-deb http://ftp.cn.debian.org/debian bookworm-proposed-updates non-free main contrib
-
-deb https://mirrors.aliyun.com/debian-security/ bookworm-security main non-free contrib
-deb-src https://mirrors.aliyun.com/debian-security/ bookworm-security main non-free contrib
-
-deb http://mirrors.ustc.edu.cn/debian-multimedia/ stable main non-free
-deb-src http://mirrors.ustc.edu.cn/debian-multimedia/ stable main non-free
-deb http://mirrors.ustc.edu.cn/debian-multimedia/ stable-backports main
-deb-src http://mirrors.ustc.edu.cn/debian-multimedia/ stable-backports main
-
-deb http://mirrors.ustc.edu.cn/deb-multimedia/ stable main non-free
-deb-src http://mirrors.ustc.edu.cn/deb-multimedia/ stable main non-free
-deb http://mirrors.ustc.edu.cn/deb-multimedia/ stable-backports main
-deb-src http://mirrors.ustc.edu.cn/deb-multimedia/ stable-backports main
