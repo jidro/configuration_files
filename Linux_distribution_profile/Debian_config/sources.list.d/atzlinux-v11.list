@@ -10,3 +10,4 @@ deb [arch=amd64] https://apt.atzlinux.com/atzlinux bullseye main contrib non-fre
 deb-src [arch=amd64] https://apt.atzlinux.com/atzlinux bullseye main contrib non-free
 # add by atzlinux-v10-archive-keyring package
 deb [arch=amd64] https://apt.atzlinux.com/atzlinux buster main contrib non-free
+deb-src [arch=amd64] https://apt.atzlinux.com/atzlinux buster main contrib non-free
