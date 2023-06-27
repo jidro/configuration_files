@@ -1,7 +1,3 @@
-# Proxmox software warehouse mirroring.
-# This file is the list of mirror source of Beijing Foreign Studies University open source software mirror station of Proxmox software repository.
-# It has been tested and used with other sources. 
-# So far ( April 20,2023, Proxmox VE 7 system, Debian 11 version ), there is no problem. 
-# If there is any problem, the list file will be placed in the lock folder for the first time to prevent its use. 
-# Therefore, it can be used safely for the time being.
-deb https://mirrors.bfsu.edu.cn/proxmox/debian/pve bullseye pve-no-subscription
+deb https://mirrors.ustc.edu.cn/proxmox/debian/pve bookworm pve-no-subscription
+deb https://mirrors.ustc.edu.cn/proxmox/debian/ceph-pacific bullseye main
+deb https://mirrors.ustc.edu.cn/proxmox/debian/ceph-quincy bookworm main
