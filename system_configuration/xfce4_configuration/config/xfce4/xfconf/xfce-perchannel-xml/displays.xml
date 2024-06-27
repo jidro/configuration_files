@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="displays" version="1.0">
+  <property name="Default" type="empty">
+    <property name="Notify" type="bool" value="true"/>
+    <property name="AutoEnableProfiles" type="bool" value="true"/>
+  </property>
+  <property name="ActiveProfile" type="string" value="Default"/>
+</channel>

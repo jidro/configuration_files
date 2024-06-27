@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=xfce4-appfinder --collapsed
+Icon=org.xfce.appfinder
+StartupNotify=true
+Terminal=false
+Categories=Utility;X-XFCE;X-Xfce-Toplevel;
+OnlyShowIn=XFCE;
+Name=Run Program...
+Name[zh_CN]=运行程序...
+Comment=Enter a command you want to launch
+Comment[zh_CN]=输入您想要启动的命令
+Keywords=run;command;application;program;finder;search;launcher;everything;spotlight;sherlock;applesearch;unity dash;krunner;synapse;ulauncher;launchy;gnome do;pie;apwal;recoll;alfred;quicksilver;tracker;beagle;kupfer;
+Keywords[zh_CN]=run;command;application;program;finder;search;launcher;everything;spotlight;sherlock;applesearch;unity dash;krunner;synapse;ulauncher;launchy;gnome do;pie;apwal;recoll;alfred;quicksilver;tracker;beagle;kupfer;运行;命令;应用;程序;查找器;搜索;运行;全部;
+X-XFCE-Source=file:///usr/share/applications/xfce4-run.desktop
