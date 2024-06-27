@@ -1,0 +1,33 @@
+# These settings were set by the catalyst build script that automatically
+# built this stage.
+# Please consult /usr/share/portage/config/make.conf.example for a more
+# detailed example.
+COMMON_FLAGS="-O2 -pipe"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+#MAKEOPTS="-j4"
+
+# NOTE: This stage was built with the bindist Use flag enabled
+PORTDIR="/var/db/repos/gentoo"
+DISTDIR="/var/cache/distfiles"
+PKGDIR="/var/cache/binpkgs"
+
+# This sets the language of build output to English.
+# Please keep this setting intact when reporting bugs.
+LC_MESSAGES=C
+
+# Portage
+GENTOO_MIRRORS="http://mirrors.163.com/gentoo/"
+
+FEATURES="ccache userfetch"
+CCACHE_SIZE="5G"
+ACCEPT_KEYWORDS="amd64"
+ACCEPT_LICENSE="*"
+L10N="en-US zh-CN en zh"
+LINGUAS="en_US zh_CN en zh"
+CPU_FLAGS_X86="${CPU_FLAGS}"
+
+FONTS="/usr/share/fonts/arphicfonts"
+INSTALL_MASK="${FONTS}"
