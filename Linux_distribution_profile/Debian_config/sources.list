@@ -21,8 +21,8 @@ deb-src http://mirrors.ustc.edu.cn/debian-security/ stable-security main contrib
 deb http://mirrors.ustc.edu.cn/debian/ stable-updates main contrib non-free non-free-firmware
 deb-src http://mirrors.ustc.edu.cn/debian/ stable-updates main contrib non-free non-free-firmware
 
-deb http://mirrors.ustc.edu.cn/debian bookworm-proposed-updates main contrib non-free non-free-firmware
-deb-src http://mirrors.ustc.edu.cn/debian bookworm-proposed-updates main contrib non-free non-free-firmware
+deb http://mirrors.ustc.edu.cn/debian trixie-proposed-updates main contrib non-free non-free-firmware
+deb-src http://mirrors.ustc.edu.cn/debian trixie-proposed-updates main contrib non-free non-free-firmware
 
 # Debian Backports provides new packages with new features
 # on supported Debian stable releases.
@@ -33,8 +33,8 @@ deb-src http://mirrors.ustc.edu.cn/debian bookworm-proposed-updates main contrib
 # is an open source mirror site.
 # If you don't like it or find it unstable or uncomfortable to use,
 # you can change it to your own.
-deb https://mirrors.bfsu.edu.cn/debian/ bookworm-backports main contrib non-free non-free-firmware
-deb-src https://mirrors.bfsu.edu.cn/debian/ bookworm-backports main contrib non-free non-free-firmware
+deb https://mirrors.bfsu.edu.cn/debian/ trixie-backports main contrib non-free non-free-firmware
+deb-src https://mirrors.bfsu.edu.cn/debian/ trixie-backports main contrib non-free non-free-firmware
 
 # This is the Debian software security update image source,
 # which has been changed to what I consider to be the fastest,
@@ -43,8 +43,8 @@ deb-src https://mirrors.bfsu.edu.cn/debian/ bookworm-backports main contrib non-
 # is an open source mirror site.
 # If you don't like it or find it unstable or uncomfortable to use,
 # you can change it to your own.
-deb https://mirrors.aliyun.com/debian-security/ bookworm-security main non-free contrib non-free-firmware
-deb-src https://mirrors.aliyun.com/debian-security/ bookworm-security main non-free contrib non-free-firmware
+deb https://mirrors.aliyun.com/debian-security/ trixie-security main non-free contrib non-free-firmware
+deb-src https://mirrors.aliyun.com/debian-security/ trixie-security main non-free contrib non-free-firmware
 
 # This is the third-party multimedia software source image
 # for the Debian system,
@@ -54,18 +54,18 @@ deb-src https://mirrors.aliyun.com/debian-security/ bookworm-security main non-f
 # is an open source mirror site.
 # If you don't like it or find it unstable or uncomfortable to use,
 # you can change it to your own.
-deb http://mirrors.ustc.edu.cn/debian-multimedia/ stable main contrib non-free
-deb-src http://mirrors.ustc.edu.cn/debian-multimedia/ stable main non-free
-deb http://mirrors.ustc.edu.cn/debian-multimedia/ stable-backports main contrib 
-deb-src http://mirrors.ustc.edu.cn/debian-multimedia/ stable-backports main
+#deb http://mirrors.ustc.edu.cn/debian-multimedia/ stable main contrib non-free
+#deb-src http://mirrors.ustc.edu.cn/debian-multimedia/ stable main non-free
+#deb http://mirrors.ustc.edu.cn/debian-multimedia/ stable-backports main contrib 
+#deb-src http://mirrors.ustc.edu.cn/debian-multimedia/ stable-backports main
 # This is the same as the appeal,
 # are the Debian system
 # of third-party multimedia software source mirror source,
 # can be replaced or co-exist. 
-deb http://mirrors.ustc.edu.cn/deb-multimedia/ stable main contrib non-free
-deb-src http://mirrors.ustc.edu.cn/deb-multimedia/ stable main non-free
-deb http://mirrors.ustc.edu.cn/deb-multimedia/ stable-backports main contrib 
-deb-src http://mirrors.ustc.edu.cn/deb-multimedia/ stable-backports main
+#deb http://mirrors.ustc.edu.cn/deb-multimedia/ stable main contrib non-free
+#deb-src http://mirrors.ustc.edu.cn/deb-multimedia/ stable main non-free
+#deb http://mirrors.ustc.edu.cn/deb-multimedia/ stable-backports main contrib 
+#deb-src http://mirrors.ustc.edu.cn/deb-multimedia/ stable-backports main
 
 # This system was installed using small removable media
 # (e.g. netinst, live or single CD). The matching "deb cdrom"
