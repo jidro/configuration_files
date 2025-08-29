@@ -1,1 +1,5 @@
-deb [trusted=yes] https://ci.deepin.com/repo/obs/linglong:/CI:/release/Debian_12/ ./
+# The Ruyi Linglong software source suitable for the Debian 12 system.
+#deb [trusted=yes] https://ci.deepin.com/repo/obs/linglong:/CI:/release/Debian_12/ ./
+
+# The Ruyi Linglong software source suitable for the Debian 13 system.
+deb [trusted=yes] https://ci.deepin.com/repo/obs/linglong:/CI:/release/Debian_13/ ./
