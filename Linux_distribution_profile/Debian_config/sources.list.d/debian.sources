@@ -1,0 +1,52 @@
+# The DEB822 (.sources) file format is used here.
+# Starting from the new versions of Debian and Ubuntu,
+# the default pre installed system source configuration file
+# for APT is no longer the traditional sources.list.
+# The new DEB822 format is supported since APT 1.1 (released in 2015),
+# with a suffix of .sources,
+# and stored in the /etc/apt/sources.list.d/ directory.
+# When switching software sources,
+# it is necessary to select the corresponding format
+# for modification according to the actual situation.
+
+# Starting from Debian 12 (bookworm),
+# the repository has added a non free firmware component
+# called non-free-firmware.
+# If you are using bookworm, testing, or sid
+# and need to use non-free-firmware,
+# you need to add non free firmware when editing the configuration.
+
+# The image site used here is the open source software image of
+# the University of Science and Technology of China,
+# which can also be modified to a faster
+# and more convenient open source software image site
+# based on the specific location.
+Types: deb
+URIs: http://mirrors.ustc.edu.cn/debian
+Suites: trixie trixie-updates trixie-proposed-updates trixie-backports
+Components: main contrib non-free non-free-firmware
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+# By default, 
+# the source code image has been annotated to improve the speed of apt updates.
+# If necessary, you can remove the annotation yourself.
+Types: deb-src
+URIs: http://mirrors.ustc.edu.cn/debian
+Suites: trixie trixie-updates trixie-proposed-updates trixie-backports
+Components: main contrib non-free non-free-firmware
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+# The following security update software sources include official sources 
+# and mirror site configurations.
+# If necessary, you can modify comments and switch between them.
+Types: deb
+URIs: http://mirrors.ustc.edu.cn/debian-security
+Suites: trixie-security
+Components: main contrib non-free non-free-firmware
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+Types: deb-src
+URIs: http://mirrors.ustc.edu.cn/debian-security
+Suites: trixie-security
+Components: main contrib non-free non-free-firmware
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
